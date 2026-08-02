@@ -41,3 +41,33 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp)
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) (copy), Heap (Non-primitive) (original)
+
+
+//stack
+let myYoutubename = "yogeshawasthi "
+
+let anotherName = myYoutubename
+anotherName = "chai aur code"
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+// heap
+
+let userOne = {
+    email:"user@google.com",
+    esewa:"userabl"
+}
+
+
+let userTwo = userOne
+
+userTwo.email="yogesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
