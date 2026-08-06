@@ -6,7 +6,7 @@ tinderUser.id = "123abc"
 tinderUser.name = "sammy"
 tinderUser.isLoggedIn = false
 
-console.log(tinderUser) // { id: '123abc', name: 'sammy', isLoggedIn: false }
+// console.log(tinderUser) // { id: '123abc', name: 'sammy', isLoggedIn: false }
 
 const regularUser = {
     email : "some@gmail.com",
@@ -49,12 +49,44 @@ const users = [
 
 ]
 
-console.log(users[1].email)
-console.log(tinderUser)
+// console.log(users[1].email)
+// console.log(tinderUser)
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+// de-structure adnd JSON API 
+
+const course = {
+    coursename : "js-in hindi",
+    price: "999",
+    courseInstructor : "hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor:instructor} = course // destructure
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+// ++++++++++++ API +++++++++++++
+// {
+//     "name" : "yogesh",
+//     "coursename":"js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {},
+    {}
+]
 
