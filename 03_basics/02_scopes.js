@@ -54,8 +54,8 @@ if (true) {
 
 // console.log(username); scope is out of the username
  
-console.log(addone(5))
-console.log(addTwo(5));
+console.log(addone(5))// no problem due to hoisting
+console.log(addTwo(5)); // shows errros coz variable entered
 
 // +++++++++++++++++ intersting +++++++++++++++
 
