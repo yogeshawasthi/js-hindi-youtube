@@ -2,6 +2,7 @@
 
 
 (function chai(){
+    //named IIFE
     console.log(`DB CONNECTED`);
     
 
@@ -13,4 +14,4 @@
 (  (name)=> {
     console.log(`DB CONNECTED SUCESSFULLY TWO ${name}`);
     
-}) ('yogesh')
+}) ('yogesh') //paramerterd passed 
